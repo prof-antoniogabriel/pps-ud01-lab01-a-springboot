@@ -20,7 +20,7 @@ spring:
 
 security:
   jwt:
-    secret: "pps-demo-jwt-secret-2026"
+    secret: ${JWT_SECRET}
 
 server:
   port: 8080
